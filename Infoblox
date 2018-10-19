@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "testz-vm"
+        },
+        "location": {
+            "value": "westindia"
+        },
+        "vmSize": {
+            "value": "Standard_DS12_v2"
+        },
+        "niosModel": {
+            "value": "IB-V1425"
+        },
+        "niosVersion": {
+            "value": "830.371835.0"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "virtualNetworkName": {
+            "value": "testz"
+        },
+        "virtualNetworkExistingRGName": {
+            "value": "testz"
+        },
+        "virtualNetworkAddressPrefix": {
+            "value": "10.3.0.0/16"
+        },
+        "vnetNewOrExisting": {
+            "value": "new"
+        },
+        "subnet1Prefix": {
+            "value": "10.3.0.0/24"
+        },
+        "subnet1Name": {
+            "value": "lan1"
+        },
+        "subnet1StartAddress": {
+            "value": "10.3.0.4"
+        },
+        "subnet2Prefix": {
+            "value": "10.3.1.0/24"
+        },
+        "subnet2Name": {
+            "value": "mgmt"
+        },
+        "subnet2StartAddress": {
+            "value": "10.3.1.4"
+        },
+        "newStorageAccountName": {
+            "value": "testz"
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "storageAccountNewOrExisting": {
+            "value": "new"
+        },
+        "storageAccountExistingRG": {
+            "value": "testz"
+        },
+        "newStorageAccountForLogsName": {
+            "value": "testz"
+        },
+        "storageAccountForLogsType": {
+            "value": "Standard_LRS"
+        },
+        "storageAccountForLogsNewOrExisting": {
+            "value": "new"
+        },
+        "storageAccountForLogsExistingRG": {
+            "value": "testz"
+        },
+        "storageAccountForLogsNeedFix": {
+            "value": true
+        },
+        "publicIPAddressName": {
+            "value": "testz"
+        },
+        "publicIPDnsName": {
+            "value": "testzvm"
+        },
+        "publicIPNewOrExistingOrNone": {
+            "value": "new"
+        },
+        "publicIPExistingRGName": {
+            "value": "testz"
+        },
+        "availabilitySetNewOrExistingOrNone": {
+            "value": "none"
+        },
+        "tempLicenseOption": {
+            "value": "TE-SoT"
+        },
+        "customData": {
+            "value": ""
+        }
+    }
+}
